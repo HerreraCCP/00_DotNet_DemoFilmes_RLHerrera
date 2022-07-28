@@ -95,6 +95,10 @@ To get a local copy up and running follow these simple example steps.
 4. Migration
    ```
    Update-Database -Verbose
+   ```  
+5. Open the project.
+   ```
+   Run the Project
    ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
