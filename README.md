@@ -58,8 +58,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
-
 This project has been created for the purpose of studies in .net Core and if there is any improvement please let me know. My contacts are in the description.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
