@@ -82,6 +82,9 @@ To get a local copy up and running follow these simple example steps.
 .Net Core is required to run this project..
 * [Download .NET]
 
+MySql
+* [MySql]
+
 ### Installation
 
 1. Clone the repo
@@ -158,3 +161,4 @@ Use this space to list resources you find helpful and would like to give credit 
 
 [product-screenshot]: images/screenshot.png
 [Download .NET](https://dotnet.microsoft.com/download/dotnet)
+[MySql](https://dev.mysql.com/downloads/installer/)
