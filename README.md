@@ -58,7 +58,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Filme](https://user-images.githubusercontent.com/14953720/181551831-978f83e2-7323-4a90-8324-b77e5f0a600f.jpg)
+![Filme](https://user-images.githubusercontent.com/14953720/181609043-207fae3a-1d2a-4353-955b-ef58ca784625.jpg)
+
 
 This project has been created for the purpose of studies in .net Core and if there is any improvement please let me know. My contacts are in the description.
 
