@@ -65,7 +65,7 @@ This project has been created for the purpose of studies in .net Core and if the
 
 ### Built With
 
-* [![Download .NET]]
+* [Download .NET]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
