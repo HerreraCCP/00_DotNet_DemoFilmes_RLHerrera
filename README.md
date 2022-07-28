@@ -79,10 +79,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-.Net Core is required to run this project..
+.Net Core - is required to run this project..
 * [Download .NET]
 
-MySql
+MySql - I used for the database we are using MySql
 * [MySql]
 
 ### Installation
