@@ -121,7 +121,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Rodrigo Herrera - [@your_twitter](https://twitter.com/Rodrigo57985139) - herrera.ccp@gmail.com
+Rodrigo Herrera - [@twitter](https://twitter.com/Rodrigo57985139) - herrera.ccp@gmail.com
 
 Project Link: [https://github.com/HerreraCCP/00_DotNet_Demo_RLHerrera_Filmes](https://github.com/HerreraCCP/00_DotNet_Demo_RLHerrera_Filmes)
 
