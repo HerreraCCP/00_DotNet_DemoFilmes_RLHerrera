@@ -1,7 +1,7 @@
-﻿namespace FilmesAPI.Data.Dtos
-{
-    using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
+namespace FilmesApi.Data.Dtos.Endereco
+{
     public class ReadEnderecoDto
     {
         [Key]

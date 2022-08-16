@@ -1,8 +1,7 @@
-﻿namespace FilmesAPI.Data.Dtos
-{
-    using System;
-    using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
+namespace FilmesApi.Data.Dtos.Filme
+{
     public class ReadFilmeDto
     {
         [Key]

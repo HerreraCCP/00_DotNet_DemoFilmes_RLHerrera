@@ -1,10 +1,9 @@
-﻿namespace FilmesAPI.Models
-{
-    using FilmesApi.Models;
-    using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-    using System.Text.Json.Serialization;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
+namespace FilmesApi.Models
+{
     public class Cinema
     {
         [Key, Required]

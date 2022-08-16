@@ -1,12 +1,12 @@
-﻿using AutoMapper;
-using FilmesApi.Data;
-using FilmesApi.Models;
-using FilmesAPI.Data.Dtos;
-using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using AutoMapper;
+using FilmesApi.Data;
+using FilmesApi.Data.Dtos.Endereco;
+using FilmesApi.Models;
+using Microsoft.AspNetCore.Mvc;
 
-namespace FilmesAPI.Controllers
+namespace FilmesApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]

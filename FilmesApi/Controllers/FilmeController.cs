@@ -1,13 +1,13 @@
-﻿
+﻿using System.Collections.Generic;
+using System.Linq;
 using AutoMapper;
 using FilmesApi.Data;
-using FilmesAPI.Data.Dtos;
-using FilmesAPI.Models;
+using FilmesApi.Data.Dtos.Cinema;
+using FilmesApi.Data.Dtos.Filme;
+using FilmesApi.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Linq;
 
-namespace FilmesAPI.Controllers
+namespace FilmesApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
