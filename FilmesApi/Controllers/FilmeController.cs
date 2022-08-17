@@ -37,16 +37,10 @@ namespace FilmesApi.Controllers
 
         [HttpPut("{id}")]
         public IActionResult AtualizaFilme(int id, [FromBody] UpdateFilmeDto filmeDto)
-        {
-            if (_filmeService.AtualizaFilme(id, filmeDto) == null) return NotFound();
-            return NoContent();
-        }
+            => _filmeService.AtualizaFilme(id, filmeDto).IsFailed ? NotFound() : NoContent();
 
         [HttpDelete("{id}")]
         public IActionResult DeletaFilme(int id)
-        {
-            if (_filmeService.DeletaFilme(id) == null) return NotFound();
-            return NoContent();
-        }
+            => _filmeService.DeletaFilme(id).IsFailed ? NotFound() : NoContent();
     }
 }

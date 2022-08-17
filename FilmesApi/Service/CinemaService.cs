@@ -55,7 +55,7 @@ namespace FilmesApi.Service
         public Result AtualizaCinema(int id, UpdateCinemaDto cinemaDto)
         {
             var cinema = _context.Cinemas.FirstOrDefault(cinema => cinema.Id == id);
-            if (cinema == null) Result.Fail("Filme nao encontrado");
+            if (cinema == null) Result.Fail("Cinema nao encontrado");
             _mapper.Map(cinemaDto, cinema);
             _context.SaveChanges();
             return Result.Ok();
@@ -64,7 +64,7 @@ namespace FilmesApi.Service
         public Result DeletaCinema(int id)
         {
             var cinema = _context.Cinemas.FirstOrDefault(cinema => cinema.Id == id);
-            if (cinema == null) return Result.Fail("Filme nao encontrado");
+            if (cinema == null) return Result.Fail("Cinema nao encontrado");
             _context.Remove(cinema);
             _context.SaveChanges();
             return Result.Ok();

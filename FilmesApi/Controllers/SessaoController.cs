@@ -27,9 +27,10 @@ namespace FilmesApi.Controllers
         [HttpGet("{id}")]
         public IActionResult RecuperaSessoesPorId(int id)
         {
-            var sessao = _sessaoService.RecuperaSessoesPorId(id) == null;
+            var sessao = _sessaoService.RecuperaSessoesPorId(id);
             if (sessao != null) return Ok(sessao);
             return NotFound();
+            
         }
     }
 }

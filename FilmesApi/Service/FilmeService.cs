@@ -6,6 +6,7 @@ using FilmesApi.Data;
 using FilmesApi.Data.Dtos.Cinema;
 using FilmesApi.Data.Dtos.Filme;
 using FilmesApi.Models;
+using FluentResults;
 
 namespace FilmesApi.Service
 {
@@ -50,25 +51,25 @@ namespace FilmesApi.Service
         }
 
 
-        public Filme AtualizaFilme(int id, UpdateFilmeDto filmeDto)
+        public Result AtualizaFilme(int id, UpdateFilmeDto filmeDto)
         {
             var filme = _context.Filmes.FirstOrDefault(filme => filme.Id == id);
-            if (filme == null) return null;
+            if (filme == null) return Result.Fail("Filme nao encontrado");
 
             _mapper.Map(filmeDto, filme);
             _context.SaveChanges();
             
-            return filme;
+            return Result.Ok();
         }
 
-        public Filme DeletaFilme(int id)
+        public Result DeletaFilme(int id)
         {
             var filme = _context.Filmes.FirstOrDefault(filme => filme.Id == id);
-            if (filme == null) return null;
+            if (filme == null) return Result.Fail("Filme nao encontrado");
 
             _context.Remove(filme);
             _context.SaveChanges();
-            return filme;
+            return Result.Ok();
         }
     }
 }
